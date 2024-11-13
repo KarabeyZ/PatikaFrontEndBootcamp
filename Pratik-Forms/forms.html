@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit_form.html">
+        <label for="firstName">İsminiz:</label><br>
+        <input type="text" id="firstName" name="firstName" required><br> <br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email"><br> <br>
+        <label for="password">Şifreniz:</label><br>
+        <input type="password" name="password" id="password">
+        <p>Cinsiyet:</p>
+        <input type="radio" name="male" id="gender" value="male">
+        <label for="male">Erkek</label><br>
+        <input type="radio" name="female" id="gender" value="female">
+        <label for="female">Kadın</label> <br><br>
+        <label for="fav">Favori Meyve:</label>
+        <select name="fav" id="fav">
+            <option value="muz">Muz</option>
+            <option value="cilek">Çilek</option>
+            <option value="elma">Elma</option>  
+        </select><br><br>
+        <label for="text">Mesaj:</label>
+        <textarea name="text" id="text"></textarea><br><br>
+        <input type="submit" value="Gönder">
+    </form>
+</body>
+</html>
